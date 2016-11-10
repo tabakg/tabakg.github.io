@@ -630,6 +630,15 @@ hr {
     min-height: 64px
 }
 
+.no-after {
+  border-bottom: none !important;
+}
+
+.social-icon {
+  margin-left:5px;
+  padding-bottom:2px;
+}
+
 .navbar {
     float: right;
     margin: 0;
