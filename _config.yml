@@ -1,0 +1,51 @@
+
+# SEO settings
+title: GilTabak
+description: "Physics, Machine Learning, and Python"
+keywords: "physics, machine learning, python"
+url: https://tabakg.github.io
+baseurl: null
+
+google_analytics: "UA-87174409-1" 
+repo: http://github.com/tabakg/tabakg.github.io
+disqus_shortname: "giltabak"
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+
+paginate: 4
+paginate_path: "/page/:num/"
+comments: true
+
+destination: _site
+
+# Author settings
+author:
+  name     : Gil Tabak
+  job      : PhD Candidate
+  bio      : "Physics and mathematics focus, with a penchant for fall leaves and good coffee."
+  thumb    : /images/author.jpg
+  email    : tabak.gil@gmail.com
+  url      : https://tabakg.github.io
+  github   : http://github.com/tabakg
+  twitter  : http://twitter.com/TabakGil
+  facebook : http://facebook.com/gil.j.tabak
+  linkedin : http://www.linkedin.com/in/gil-tabak-075b2b20
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary_large_image"
+twitter_site: "@TabakGil"
+
+gems:
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: [".git", "README.md", "LICENSE.md", "_site"]
