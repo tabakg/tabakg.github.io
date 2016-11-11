@@ -22,4 +22,4 @@ e^{i \pi} + 1 = 0.
 
 Here's a picture of me:
 
-![Me!]({{ tabakg.github.io }}/assets/author.jpg)
+![Me!](.assets/images/author.jpg){:class="img-responsive"}
