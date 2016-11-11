@@ -22,4 +22,4 @@ e^{i \pi} + 1 = 0.
 
 Here's a picture of me:
 
-![Me!](.assets/images/author.jpg){:class="img-responsive"}
+{% include image name="author.jpg" caption="Me!" %}
