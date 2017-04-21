@@ -16,7 +16,7 @@ of the dish contents.
 Suppose we can do one of two things at a time: continuously add water at a rate <p>$r$<p>,
 or pour out the contents of the dish. However, we can't empty the dish entirely,
 instead leaving a volume <p>$V_\min$<p> in the container. Emptying the dish takes takes a
-time $t$.
+time <p>$t$<p>.
 
 We want the dish to contain a volume of no more than <p>$V_\text{end}$<p> of the
 contaminant. What is the best strategy for rinsing?
